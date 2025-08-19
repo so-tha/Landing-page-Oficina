@@ -3,8 +3,8 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import SectionOne from './components/SectionOne'
 import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
 import SocialMedia from './components/SocialMedia'
+import Contact from './components/Contact'
 
 function App() {
 

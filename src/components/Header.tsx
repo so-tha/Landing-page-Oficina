@@ -30,7 +30,7 @@ const Header: React.FC = () => {
         <nav className="navigation">
           <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
             <li><a href="#about" className="nav-link" onClick={closeMenu}>Sobre</a></li>
-            <li><a href="#portfolio" className="nav-link" onClick={closeMenu}>Portifólio</a></li>
+            <li><a href="#portfolio" className="nav-link" onClick={closeMenu}>Portfólio</a></li>
             <li><a href="#contact" className="nav-link contact-btn" onClick={closeMenu}>Contato</a></li>
           </ul>
           
