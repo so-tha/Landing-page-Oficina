@@ -17,6 +17,7 @@ body {
   line-height: 1.6;
   color: var(--text-white);
   background-color: var(--background-dark);
+  overflow-x: hidden; /* Previne scroll horizontal */
 }
 
 #root {
@@ -58,6 +59,22 @@ input, textarea, select {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+@media (max-width: var(--breakpoint-sm)) {
+  html {
+    scroll-padding-top: 70px;
+  }
+  
+  body {
+    font-size: 14px;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  input, textarea, select {
+    font-size: 16px;
+  }
 }
 
 

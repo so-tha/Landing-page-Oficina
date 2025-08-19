@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 
 const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <header className="header">
       <div className="header-container">
@@ -18,11 +28,17 @@ const Header: React.FC = () => {
         </div>
         
         <nav className="navigation">
-          <ul className="nav-menu">
-            <li><a href="#about" className="nav-link">Sobre</a></li>
-            <li><a href="#portfolio" className="nav-link">Portifólio</a></li>
-            <li><a href="#contact" className="nav-link contact-btn">Contato</a></li>
+          <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
+            <li><a href="#about" className="nav-link" onClick={closeMenu}>Sobre</a></li>
+            <li><a href="#portfolio" className="nav-link" onClick={closeMenu}>Portifólio</a></li>
+            <li><a href="#contact" className="nav-link contact-btn" onClick={closeMenu}>Contato</a></li>
           </ul>
+          
+          <div className="mobile-menu-toggle" onClick={toggleMenu}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </nav>
       </div>
     </header>
