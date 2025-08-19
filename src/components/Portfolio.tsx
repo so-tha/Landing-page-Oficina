@@ -14,13 +14,13 @@ const Portfolio: React.FC = () => {
   const portfolioImages: PortfolioImage[] = [
     {
       id: '1',
-      src: '/src/assets/primeira.png',
+      src: '/images/primeira.png',
       alt: 'Detalhe de pintura automotiva',
       caption: 'Nossas informações'
     },
     {
       id: '3',
-      src: '/src/assets/segunda.png',
+      src: '/images/segunda.png',
       alt: 'Vista externa de oficina',
       caption: 'Galeria de Projetos'
     },

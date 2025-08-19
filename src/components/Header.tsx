@@ -8,7 +8,7 @@ const Header: React.FC = () => {
         <div className="brand-section">
           <div className="logo">
             <div className="logo-icon">
-              <img src="/src/assets/logo.png" alt="logo" sizes='48px' />
+              <img src="/images/logo.png" alt="logo" sizes='48px' />
             </div>
           </div>
           <div className="brand-text">
