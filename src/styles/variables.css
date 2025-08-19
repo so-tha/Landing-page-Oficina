@@ -1,0 +1,46 @@
+:root {
+  /* Colors */
+  --primary-color: #ff0000;
+  --primary-hover: #cc0000;
+  --secondary-color: #4a5a4a;
+  --secondary-hover: #3a4a3a;
+  --background-dark: #2e3b2e;
+  --background-header: #2e3b2e;
+  --background-box: #3a4a3a;
+  --text-white: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.95);
+  --highlight-bg: #8B0000;
+  --icon-color: #cccccc;
+  --icon-text: #666666;
+  
+  /* Typography */
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-size-small: 0.9rem;
+  --font-size-base: 1rem;
+  --font-size-large: 1.1rem;
+  --font-size-xl: 1.2rem;
+  --font-size-2xl: 1.8rem;
+  --font-size-3xl: 3rem;
+  
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 2.5rem;
+  
+  /* Border radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+  
+  /* Breakpoints */
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1200px;
+} 

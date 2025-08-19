@@ -1,0 +1,19 @@
+.icon-checkmark {
+  width: 16px;
+  height: 16px;
+  background-color: var(--icon-color);
+  border-radius: 50%;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.icon-checkmark::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--icon-text);
+  font-size: 10px;
+  font-weight: bold;
+} 
